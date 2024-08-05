@@ -5,7 +5,7 @@ import jsonpath
 url = "https://reqres.in/api/users"
 
 # read Input json file
-file = open('C:\\Users\\Marina_my_folder\\testing_purpose\\CreateUser.json', 'r')
+file = open('C:\\Users\\Marina_my_folder\\testing_purpose\\AddStudent.json', 'r')
 json_input = file.read()
 request_json = json.loads(json_input)
 
